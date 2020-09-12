@@ -1,104 +1,148 @@
 body {
-    /*background-image: url("../assets/fb.jpg");*/
-    /* font-family: "Open Sans", sans-serif;
+  /*background-image: url("../assets/fb.jpg");*/
+  /* font-family: "Open Sans", sans-serif;
     background-color: #040404;
     background: transparent;
     color: #fff; */
-    position: relative;
-    
+    font-family: "Roboto";
+  position: relative;
+}
+
+.header {
+  background-image: url("../assets/m.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 50px;
+  position: relative;
+}
+
+#firstContainer > p,
+#firstContainer > h1,
+#firstContainer > h3 {
+  color: white;
+}
+
+
+
+
+.header .social-links {
+  margin-top: 40px;
+  display: flex;
+}
+
+.header .social-links a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.header .social-links a:hover {
+  background: #18d26e;
+}
+
+@media (max-width: 992px) {
+  .header h1 {
+    font-size: 36px;
   }
-
-
- .header{
-    background-image: url("../assets/m.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    padding-top: 50px;
-    position: relative;
- }
- #firstContainer > p, h1, h3{
-     color:white ;
- }
-
-   .about{
-    height: 100vh;
-   }
- .social_links {
-    margin: 5px 0 0 68px;
+  .header h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header .social-links {
+    margin-top: 15px;
+  }
+  .header .container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+}
 
-  /* For social Links */
+/* For nav links  */
+.nav a {
+  color: white;
+  font-weight: normal; 
+}
 
-  .fa {
-    /* padding: 20px; */
-  font-size: 30px;
-   width: 30px; 
+.nav a:hover {
+  color: #18d26e;
+  font-weight: normal; 
+  text-decoration-line: underline;
+}
+
+/* For social Links */
+
+
+.iconify {
+  color: white;
+  background: #553b08;
+}
+
+#about {
+  margin: 10px;
+  color: #000000;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+.ReaderPage {
+  background-image: url("../assets/books.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 50px;
+  position: relative;
+}
+
+#quouteReading > p {
+  color: red;
+}
+
+.devProject {
+  margin-top: 50px;
+  color: black;
   text-align: center;
-  text-decoration: none;
-  border-radius: 100%;
-  border-color: #000000;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  
-  .fa-instagram {
-    color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  }
-  
-  
-  .fa-soundcloud {
-    background: #ff5500;
-    color: white;
-  }
-  .fa-github{
-    background: #444444;
-    color: white;
-  }
-  .iconify{
-    color: white;
-    background: #553b08;
-  }
+}
 
-  #about{
-      margin : 10px;
-      color: #000000;
-  }
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+/* tryiiiiing space */
+.header {
+  background-image: url("../assets/m.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  padding-top: 50px;
+  position: relative;
+}
+.container > p,
+.container > h1,
+.container > h3 {
+  color: white;
+}
+.someDevProject{
+  margin-top: 50px;
+  color: black;
+  text-align: center;
+}
 
-  .nav>li {
-    display: inline-block;
-    }
-
-    .ReaderPage{
-      background-image: url("../assets/books.jpg");
-       background-size: cover;
-      background-repeat: no-repeat;
-      height: 500px;
-      padding-top: 50px;
-      position: relative;
-
-    }
-  
-    #quouteReading > p{
-    color: red;
-    }
-
+.skills  h1{
+  text-align: center;
+  margin: 10px 0;
+  margin-bottom: 5px;
+  color: black;
+}
