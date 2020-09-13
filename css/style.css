@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body {
-  /*background-image: url("../assets/fb.jpg");*/
-  /* font-family: "Open Sans", sans-serif;
-    background-color: #040404;
-    background: transparent;
-    color: #fff; */
     font-family: "Bree Serif";
   position: relative;
+}
+body p{
+  font-family: 'Noto Sans JP' !important;
 }
 
 .header {
@@ -47,7 +46,7 @@ body {
 }
 
 .header .social-links a:hover {
-  background: #18d26e;
+  background: #f0a500;
 }
 
 @media (max-width: 992px) {
@@ -70,59 +69,30 @@ body {
 }
 
 /* For nav links  */
-.nav a {
+.navbar a {
   color: white;
   font-weight: normal; 
 }
 
-.nav a:hover {
-  color: #18d26e;
+.navbar a:hover {
+  color: #f0a500 !important; 
+  font-weight: normal; 
+  text-decoration-line: underline;
+}
+.navbar a:active {
+  color: #f0a500 !important; 
   font-weight: normal; 
   text-decoration-line: underline;
 }
 
 /* For social Links */
-
-
 .iconify {
   color: white;
   background: #553b08;
 }
 
-#about {
-  margin: 10px;
-  color: #000000;
-}
 
-.nav > li {
-  display: inline-block;
-}
 
-.ReaderPage {
-  background-image: url("../assets/books.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  padding-top: 50px;
-  position: relative;
-}
-
-#quouteReading > p {
-  color: red;
-}
-
-.devProject {
-  margin-top: 50px;
-  color: black;
-  text-align: center;
-}
-
-.footer {
-  background-color: black;
-  text-align: center;
-  color: white;
-}
-/* tryiiiiing space */
 .header {
   background-image: url("../assets/m.jpg");
   background-size: cover;
@@ -130,6 +100,7 @@ body {
   height: 50vh;
   padding-top: 50px;
   position: relative;
+ 
 }
 .container > p,
 .container > h1,
@@ -141,11 +112,18 @@ body {
   color: black;
   text-align: center;
 }
+.skills{
+  color: black; text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
 
 .skills  h1{
   text-align: center;
   margin: 10px 0;
-  margin-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   color: black;
 }
 
@@ -155,42 +133,18 @@ body {
   text-align: center;
 }
 
-blockquote:before {
-  content: open-quote;
-  margin-right: 4px
-}
-
-blockquote:after {
-  content: close-quote;
-  margin-left: 3px
-}
 
 
 /* for intrest class in about page */
-.interests .info-box {
-  color: #444444;
-  padding: 20px;
-  width: 300px;
-  height: 80px;
-  background: #fe7171;
-  }
-  
-  .interests .info-box i.bx {
-    font-size: 24px;
-    color: #18d26e;
-    border-radius: 50%;
-    padding: 14px;
-    float: left;
-    background: rgba(255, 255, 255, 0.1);
-    }
-    
-  .interests .info-box h3 {
-  font-size: 20px;
-  color: black;
-  font-weight: 700;
-  margin: 10px 0 8px 68px;
-  }
-  
+
   .page-container{
     padding: 0;display: flex;flex-direction: column;justify-content: space-between;
   }
+  .card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+ .btn-warning{
+   color: black;
+ }
