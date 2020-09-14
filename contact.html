@@ -26,10 +26,10 @@
 </head>
 
 <body>
-    <div class="container-fluid header page-container" style="height: 100vh;">
+    <div class="container-fluid header page-container" style="min-height: 100vh;height: 100%;">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/avarar.jpg" alt="Malek" style="width:40px; border-radius: 50%;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -50,7 +50,7 @@
                         <a class="nav-link" href="about.html">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
 
                 </ul>
@@ -72,10 +72,10 @@
 
 
         <div id="contact-cards" class="container">
-            <div class="row">
-                <div class="col d-flex align-item-stretch" style="padding: 10px;">
+            <div class="row" style="min-height: 100px;">
+                <div class="col d-flex align-item-stretch" >
                     <div class="container" style="background: rgba(0, 0, 0, 0.4);">
-                        <h3 style="color: #f0a500; padding: 10px;" >Social Links</h3>
+                        <h3 style="color: #f0a500; padding: 10px;">Social Links</h3>
                         <div class="social-links">
                             <a href="https://github.com/malek" target="_blank" class="fa fa-github"></a>
                             <a href="https://web.facebook.com/malak.ben.9085" class="facebook"><i
@@ -105,7 +105,7 @@
                         <p> </p>
                     </div>
                 </div>
-                <div class="col d-flex align-item-stretch" style="padding: 10px;">
+                <div class="col d-flex align-item-stretch">
                     <div class="container" style="background: rgba(0, 0, 0, 0.4);">
                         <img src="assets/" alt="">
                         <h3 style="color: #f0a500;">My Address</h3>
@@ -115,50 +115,46 @@
             </div>
         </div>
 
-        <form class="container" action="mailto:brahimsamia31@gmail.com" method="POST" enctype="text/plain" >
-
+        <form class="container" action="mailto:brahimsamia31@gmail.com" method="POST" enctype="text/plain">
 
             <div class="container" style="background: rgba(0, 0, 0, 0.4); padding: 10px;">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <!-- Full name input -->
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="fullname" placeholder="First & Last Name">
+                            <input type="text" name="name" class="form-control" id="fullname"
+                                placeholder="First & Last Name">
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-6">
                         <!-- Email input -->
                         <div class="form-group">
-                            <input type="email" name="mail" class="form-control" id="emailArea" aria-describedby="emailHelp"
-                                placeholder="your Email">
+                            <input type="email" name="mail" class="form-control" id="emailArea"
+                                aria-describedby="emailHelp" placeholder="your Email">
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                     <div class="col-12">
                         <!-- Email Subject input -->
                         <div class="form-group">
                             <input type="text" class="form-control" id="subject" placeholder="Subject">
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <!-- Email Message input -->
                         <div class="form-group">
                             <!-- <input type="text" class="form-control" id="emailMessage"
                                 placeholder="Message i'll be glad if you mention all details clear precised"> -->
-                                <textarea  class="form-control" name="comment" id="emailMessage" rows="3"
-                                placeholder=
-                                "Message. PS: i'll be glad if you mention all details in a clear and precise way"></textarea>></textarea>
+                            <textarea class="form-control" name="comment" id="emailMessage" rows="3"
+                                placeholder="Message. PS: i'll be glad if you mention all details in a clear and precise way"></textarea>
                         </div>
                     </div>
                 </div>
-                
+
+
 
                 <div class="row justify-content-center ">
-                    <div class="col" style="text-align: center;" >
-                        <button type="submit" value="Send" class="btn btn-warning" >Submit</button>
+                    <div class="col" style="text-align: center;">
+                        <button type="submit" value="Send" class="btn btn-warning">Submit</button>
                     </div>
                 </div>
             </div>

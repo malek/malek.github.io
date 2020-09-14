@@ -152,3 +152,7 @@ body p{
  #contact-cards .social-links{
    margin-top: 0;
  }
+ .navbar{
+   padding-top: 0 !important;
+   padding-bottom: 0 !important;
+ }
