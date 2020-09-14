@@ -156,3 +156,6 @@ body p{
    padding-top: 0 !important;
    padding-bottom: 0 !important;
  }
+ .footer-copyright a{
+   color: #f0a500 ;
+ }
